@@ -5,10 +5,12 @@
  * Written 2000 by Andi Kleen.
  * Busybox port 2002 by Nick Fedchik <nick@fedchik.org.ua>
  *			Glenn McGrath
- * Extended matching support 2008 by Nico Erfurth <masta@perlgolf.de>
+ * Extended matching support 20gfgdfgdfg08 by Nico Erfurth <masta@perlgolf.de>
  *
- * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ * Licensed under GPLv2 or later, see fdgfile LICENSE in this source tree.
  */
+ CUONGNTC
+ 
 
 //config:config NAMEIF
 //config:	bool "nameif"
