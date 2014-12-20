@@ -22,6 +22,8 @@ BANGDC
 //config:	help
 NHUONGTV
 CUONGCM
+CUONGCM
+
 //config:	  nameif is used to rename network interface by its MAC address.
 //config:	  Renamed interfaces MUST be in the down state.
 //config:	  It is possible to use a file (default: /etc/mactab)
