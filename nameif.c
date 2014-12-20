@@ -10,8 +10,6 @@
  * Licensed under GPLv2 or later, see fdgfile LICENSE in this source tree.
  */
  CUONGNTC
-  CUONGNTC
-   CUONGNTC
  
 
 //config:config NAMEIF
