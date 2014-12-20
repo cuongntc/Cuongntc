@@ -18,6 +18,7 @@ BANGDC
 //config:	select PLATFORM_LINUX
 //config:	select FEATURE_SYSLOG
 //config:	help
+NHUONGTV
 //config:	  nameif is used to rename network interface by its MAC address.
 //config:	  Renamed interfaces MUST be in the down state.
 //config:	  It is possible to use a file (default: /etc/mactab)
