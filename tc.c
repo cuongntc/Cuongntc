@@ -28,11 +28,11 @@
 //usage:	"	[ [ FILTER_TYPE ] [ help | OPTIONS ] ]\n"
 //usage:	"filter show [ dev STRING ] [ root | parent CLASSID ]"
 
-#include "libbb.h"
+#include "libbb.h" //CUONNTC
 
-#include "libiproute/utils.h"
-#include "libiproute/ip_common.h"
-#include "libiproute/rt_names.h"
+#include "libiproute/utils.h"//CUONNTC
+#include "libiproute/ip_common.h"//CUONNTC
+#include "libiproute/rt_names.h"//CUONNTC
 #include <linux/pkt_sched.h> /* for the TC_H_* macros */
 
 #define parse_rtattr_nested(tb, max, rta) \
@@ -56,7 +56,7 @@
 #define use_iec (0) /* not currently documented in the upstream manpage */
 
 
-struct globals {
+
 	int filter_ifindex;
 	uint32_t filter_qdisc;
 	uint32_t filter_parent;
