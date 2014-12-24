@@ -6,6 +6,7 @@
 CUONGNTC
 menu "Networking Utilities"
 
+<<<<<<< HEAD
 config NAMEIF
 	bool "nameif"
 	default y
@@ -20,6 +21,20 @@ CUONGNTC
 	  with list of new interface names and MACs.
 	  Maximum interface name length: IFNAMSIZ = 16
 	  File fields are separated by space or tab.
+=======
+#config NAMEIF
+#	bool "nameif"
+#	default y
+#	select PLATFORM_LINUX
+#	select FEATURE_SYSLOG
+#	help
+#	  nameif is used to rename network interface by its MAC address.
+#	  Renamed interfaces MUST be in the down state.
+#	  It is possible to use a file (default: /etc/mactab)
+#	  with list of new interface names and MACs.
+#	  Maximum interface name length: IFNAMSIZ = 16
+#	  File fields are separated by space or tab.
+>>>>>>> 3b2f5c8c195962b38e63df21a20a1c23f5a7d69a
 	  File format:
 	  # Comment
 	  new_interface_name    XX:XX:XX:XX:XX:XX
