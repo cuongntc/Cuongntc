@@ -28,12 +28,7 @@ CUONGCM
 CUONGCM
 CUONGCM
 
-//config:	  nameif is used to rename network interface by its MAC address.
-//config:	  Renamed interfaces MUST be in the down state.
-//config:	  It is possible to use a file (default: /etc/mactab)
-//config:	  with list of new interface names and MACs.
-//config:	  Maximum interface name length: IFNAMSIZ = 16
-//config:	  File fields are separated by space or tab.
+b.
 //config:	  File format:
 //config:	  # Comment
 //config:	  new_interface_name    XX:XX:XX:XX:XX:XX
