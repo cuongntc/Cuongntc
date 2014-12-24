@@ -3,7 +3,7 @@
 # For a description of the syntax of this configuration file,
 # see scripts/kbuild/config-language.txt.
 #
-
+CUONGNTC
 menu "Networking Utilities"
 
 config NAMEIF
