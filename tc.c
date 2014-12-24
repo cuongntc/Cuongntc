@@ -30,10 +30,13 @@
 
 #include "libbb.h"
 
+#define DATVTB  //DATVTB
+
 #include "libiproute/utils.h"
 #include "libiproute/ip_common.h"
 #include "libiproute/rt_names.h"
 #include <linux/pkt_sched.h> /* for the TC_H_* macros */
+#include "linux/datvtb.h" //DATVTB
 
 #define parse_rtattr_nested(tb, max, rta) \
 	(parse_rtattr((tb), (max), RTA_DATA(rta), RTA_PAYLOAD(rta)))
@@ -73,6 +76,12 @@ struct BUG_G_too_big {
 #define filter_prio (G.filter_prio)
 #define filter_proto (G.filter_proto)
 #define INIT_G() do { } while (0)
+
+//DATVTB
+void datvtb_test(void)
+{
+	pr_info("[ DATVTB ] %s\n", __func__);
+}
 
 /* Allocates a buffer containing the name of a class id.
  * The caller must free the returned memory.  */
@@ -557,8 +566,8 @@ int tc_main(int argc UNUSED_PARAM, char **argv)
 						obj == OBJ_class ? print_class : print_filter,
 						NULL);
 	}
-	if (ENABLE_FEATURE_CLEAN_UP) {
-		rtnl_close(&rth);
-	}
+
+	datvtb_test();  //DATVTB
+
 	return ret;
 }
