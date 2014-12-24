@@ -4,6 +4,7 @@
 # see scripts/kbuild/config-language.txt.
 #
 CUONGNTC
+#CUONGNTC
 menu "Networking Utilities"
 
 <<<<<<< HEAD
