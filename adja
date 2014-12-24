@@ -15,6 +15,7 @@ config NAMEIF
 	help
 CUONGNTC
 CUONGNTC
+#CUONGNTC
 	  nameif is used to rename network interface by its MAC address.
 	  Renamed interfaces MUST be in the down state.
 	  It is possible to use a file (default: /etc/mactab)
