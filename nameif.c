@@ -11,24 +11,7 @@
  */
  CUONGNTC
  
-BANGDC
-BANGDC
-BANGDC
-BANGDC
-BANGDC
-//config:config NAMEIF
-//config:	bool "nameif"
-//config:	default y
-//config:	select PLATFORM_LINUX
-//config:	select FEATURE_SYSLOG
-//config:	help
-NHUONGTV
-CUONGCM
-CUONGCM
-CUONGCM
-CUONGCM
 
-b.
 //config:	  File format:
 //config:	  # Comment
 //config:	  new_interface_name    XX:XX:XX:XX:XX:XX
